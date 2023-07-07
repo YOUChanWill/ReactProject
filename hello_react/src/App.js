@@ -1,13 +1,15 @@
 import React,{Component} from "react";
 import Hello from "./components/Hello/Hello";
-import Wlecome from "./components/Welcome/Welcome";
+import Welcome from "./components/Welcome/Welcome";
+import Demo from "./components/Demo/Demo";
 
 class App extends Component{
   render(){
     return (
         <div>
           <Hello/>
-          <Wlecome/>
+          <Welcome/>
+          <Demo/>
         </div>
     )
   }
